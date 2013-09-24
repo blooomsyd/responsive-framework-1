@@ -1,0 +1,369 @@
+@import 'reset.css';
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(js/boxsizing.htc);
+}
+body {
+  background: #000;
+}
+.content {
+  background: #fff;
+}
+.content div h3 {
+  background: #cccccc;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.content article h3 {
+  background: #cccccc;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.content .orange {
+  background: orange;
+}
+.content .red {
+  border: none;
+  background: red;
+}
+.content .green {
+  background: green;
+}
+.content .blue {
+  background: blue;
+}
+.content .yellow,
+.content article {
+  background: yellow;
+}
+/* 480px */
+@media only screen and (min-width: 480px) {
+  
+}
+/* 640px */
+@media only screen and (min-width: 640px) {
+  
+}
+/* 960px */
+@media only screen and (min-width: 960px) {
+  
+}
+/* 1382px */
+@media only screen and (min-width: 1240px) {
+  
+}
+section {
+  width: 100%;
+  overflow: auto;
+}
+section .box_size_1 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_1_5 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_2 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_3 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_4 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_5 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_6 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_7 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_8 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_9 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_10 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_11 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .box_size_12 {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+section .row_size_3 {
+  width: 100%;
+  display: block;
+  float: left;
+}
+section .row_size_6 {
+  width: 100%;
+  display: block;
+  float: left;
+}
+section article {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+/* 480px */
+@media only screen and (min-width: 480px) {
+  
+}
+/* 640px */
+@media only screen and (min-width: 640px) {
+  section .box_size_1 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_2 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_3 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_4 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_5 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_6 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_7 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_8 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_9 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_10 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_11 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_11 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .left_4 {
+    margin-left: 50%;
+  }
+  section article {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+}
+/* 960px */
+@media only screen and (min-width: 960px) {
+  section {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+  section .box_size_1 {
+    width: 8.333333333333334%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_1_5 {
+    width: 12.5%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_2 {
+    width: 16.666666666666668%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_3 {
+    width: 25%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_4 {
+    width: 33.333333333333336%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_5 {
+    width: 41.66666666666667%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_6 {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_7 {
+    width: 58.333333333333336%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_8 {
+    width: 66.66666666666667%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_9 {
+    width: 75%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_10 {
+    width: 83.33333333333334%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_11 {
+    width: 91.66666666666667%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .box_size_12 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+  section .row_size_3 {
+    width: 25%;
+    display: block;
+    float: left;
+  }
+  section .row_size_6 {
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  section .left_4 {
+    margin-left: 33.333333333333336%;
+  }
+  section .left_2 {
+    margin-left: 16.666666666666668%;
+  }
+  section .right_1 {
+    margin-right: 8.333333333333334%;
+  }
+  section article {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 10px;
+  }
+}
+/* 1382px */
+@media only screen and (min-width: 1240px) {
+  section {
+    width: 1240px;
+    margin: 0 auto;
+  }
+}

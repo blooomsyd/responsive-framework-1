@@ -1,0 +1,30 @@
+
+//GRID LAYOUT
+      
+
+
+      //BOX SIZING MAKES THE PADDING PART OF TOTAL WIDTH ACCROSS MOST BROWSERS
+      * { 
+         -webkit-box-sizing: 	border-box; 
+         -moz-box-sizing:    	border-box;
+         -o-box-sizing: 		border-box; 
+         box-sizing:         	border-box;
+         *behavior: url(js/boxsizing.htc); 
+      }
+
+      //GRID LAYOUT CODE
+      @col_padding : 10px; // global padding change and effects all cols
+      @col_total :12; //total number of cols
+      @total_width :100%; //width total, leave at 100%
+      .col (@col_number: 12) 		{ width: @col_number*( @total_width/@col_total); display: block; float: left; padding: @col_padding;}
+      .row (@col_number: 12) 		{ width: @col_number*( @total_width/@col_total); display: block; float: left; } 
+      .left (@col_number: 1) 		{ margin-left: @col_number*( @total_width/@col_total);}
+      .right (@right_margin: 1) 	{ margin-right: @right_margin*( @total_width/@col_total);}
+      .cent (@col_number: 12) 	{ width: @col_number*( @total_width/@col_total); display: block; clear: both; margin: 0 auto;}
+
+
+
+
+
+//FONTS
+.font (){font-family: Helvetica, Arial, sans-serif;}
